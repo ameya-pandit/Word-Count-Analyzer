@@ -7,3 +7,6 @@ In the English language, the word "The" is the most common, and with it being a 
 
 # Technologies Used #
 I used a Hash Table to store all the words that were parsed from the text file. Hash Table was a good choice because of the O(1) addition and look-up time. I then used an ArrayList to sort the words per each word length - for instance and although both 3 letter words, "The" was more common than "and", hence "The" needed to be the first word for the 3 letter word "bin". 
+
+# Files #
+Most of the code is in Bard.java and storeValue.java. The rest of the files in the repository are input/output files. This program works for text files, but can be modified to handle inputs from all potential input sources (Word, PDF, JSON, etc.).
